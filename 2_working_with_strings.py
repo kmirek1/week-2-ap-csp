@@ -19,13 +19,19 @@ print("Concatenated String:", message)  # Output: Hello World
 # 2. String Functions
 # ----------------------------------------
 
-phrase = "Python is FUN!"
+phrase = "Python is FUN!" 
 
 # # Convert all characters to lowercase
 # print("Lowercase:", phrase.lower())  # Output: python is fun!
 
 # # Convert all characters to uppercase
 # print("Uppercase:", phrase.upper())  # Output: PYTHON IS FUN!
+
+name = "Karissa Mirek"
+# upper case 
+print("Uppercase:",name.upper())
+# lower case
+print("Lowercase:", name.lower())
 
 # # Check if all characters are uppercase
 # print("Is Uppercase?", phrase.isupper())  # Output: False
