@@ -1,4 +1,4 @@
-
+name ="Karissa Mirek"
 #dkdkdkdkdkdk
 # Algorithm: A step-by-step set of instructions designed to perform a specific task.
 # Example Algorithm: Find the sum of two numbers
@@ -10,8 +10,8 @@
 # Step 5: End
 
 # Let's write that algorithm in Python code:
-num1 = 5
-num2 = 7
+num1 = 5 #integer
+num2 = 7 #integer
 sum_result = num1 + num2
 print("The sum is:", sum_result)
 
@@ -26,8 +26,8 @@ print("The sum is:", sum_result)
 # Common Data Types in Python:
 
 # 1. Strings: Text data enclosed in quotes
-name = "John"
-print("Name:", name)
+# name = "John"
+# print("Name:", name)
 
 # 2. Numbers: Numeric data (integers or floats)
 age = 23
