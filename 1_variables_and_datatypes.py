@@ -30,16 +30,16 @@ print("The sum is:", sum_result)
 # print("Name:", name)
 
 # 2. Numbers: Numeric data (integers or floats)
-# age = 23
-# print("Age:", age)
+age = 23
+print("Age:", age)
 
 # 3. Booleans: True or False values
-# hungry = False
-# print("Hungry:", hungry)
+hungry = False
+print("Hungry:", hungry)
 
 
 # Example combining them all:
-# print(f"{name} is {age} years old. Hungry? {hungry}")
+print(f"{name} is {age} years old. Hungry? {hungry}")
 
 
 # ----------------------------------------
@@ -55,9 +55,11 @@ name1 = "John"
 # Example (INVALID): first name = "John" ❌
 # Example (VALID):
 first_name = "John"
+# firstName = "John"
 
 # 3. Avoid using Python keywords and symbols
 # Example (INVALID): for = "test" ❌ (since 'for' is a Python keyword)
+#class def return etc.
 # Example (VALID):
 loop_word = "test"
 
