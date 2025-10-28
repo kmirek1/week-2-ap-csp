@@ -4,22 +4,22 @@
 # ----------------------------------------
 
 # Strings are sequences of characters enclosed in quotes (' ' or " ")
-greeting = "Hello" #string data type
-name = "World" # string data type
+# greeting = "Hello" #string data type
+# name = "World" # string data type
 
-# ----------------------------------------
-# Basic String Operations
-# ----------------------------------------
+# # ----------------------------------------
+# # Basic String Operations
+# # ----------------------------------------
 
-# 1. Concatenation: Combining strings using the + operator
-message = greeting + " " + name
-print("Concatenated String:", message)  # Output: Hello World
+# # 1. Concatenation: Combining strings using the + operator
+# message = greeting + " " + name
+# print("Concatenated String:", message)  # Output: Hello World
 
 # ----------------------------------------
 # 2. String Functions
 # ----------------------------------------
 
-phrase = "Python is FUN!" 
+# phrase = "Python is FUN!" 
 
 # # Convert all characters to lowercase
 # print("Lowercase:", phrase.lower())  # Output: python is fun!
@@ -27,26 +27,33 @@ phrase = "Python is FUN!"
 # # Convert all characters to uppercase
 # print("Uppercase:", phrase.upper())  # Output: PYTHON IS FUN!
 
-name = "Karissa Mirek"
-# upper case 
-print("Uppercase:",name.upper())
-# lower case
-print("Lowercase:", name.lower())
+# name = "Karissa Mirek"
+# # upper case 
+# print("Uppercase:",name.upper())
+# # lower case
+# print("Lowercase:", name.lower())
 
-# Check if all characters are uppercase
-print("Is Uppercase?", phrase.isupper())  # Output: False
-print("name", name.isupper()) #true or false
-#capitalization
-print("name", name.capitalize())
-# # Find the length of the string
-print("Length of phrase:", len(phrase))  # Output: 14
-declaration_of_independence = "The unanimous Declaration of the thirteen united States of America, When in the Course of human events, it becomes necessary for one people to dissolve the political bands which have connected them with another, and to assume among the powers of the earth, the separate and equal station to which the Laws of Nature and of Nature's God entitle them, a decent respect to the opinions of mankind requires that they should declare the causes which impel them to the separation."
-print(declaration_of_independence)
-length_dec = len(declaration_of_independence)
-print(length_dec)
+# # Check if all characters are uppercase
+# print("Is Uppercase?", phrase.isupper())  # Output: False
+# print("name", name.isupper()) #true or false
+# #capitalization
+# print("name", name.capitalize())
+# # # Find the length of the string
+# print("Length of phrase:", len(phrase))  # Output: 14
+# declaration_of_independence = "The unanimous Declaration of the thirteen united States of America, When in the Course of human events, it becomes necessary for one people to dissolve the political bands which have connected them with another, and to assume among the powers of the earth, the separate and equal station to which the Laws of Nature and of Nature's God entitle them, a decent respect to the opinions of mankind requires that they should declare the causes which impel them to the separation."
+# print(declaration_of_independence)
+# length_dec = len(declaration_of_independence)
+# print(length_dec)
+
 # # ----------------------------------------
 # # 3. Indexing and Slicing
 # # ----------------------------------------
+
+chicago_mayor = "Johnson"
+print(len(chicago_mayor))
+print(chicago_mayor[0])
+print(chicago_mayor[4])
+print(chicago_mayor[-1])
 
 # # Indexing: Access characters by position (0-based index)
 # print("First character:", phrase[0])  # Output: P
