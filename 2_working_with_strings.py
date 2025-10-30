@@ -49,28 +49,28 @@ phrase = "Python is FUN!"
 # # 3. Indexing and Slicing
 # # ----------------------------------------
 
-chicago_mayor = "Johnson"
-#index slicing
-print(chicago_mayor[0:4]) #
-# the first number 0 is inclusive
-# the last num is exclusive
-print(chicago_mayor[4:]) # if you leave it blank it will go to the end
-print(chicago_mayor[2:-1])
-print(chicago_mayor[0:5])
+# chicago_mayor = "Johnson"
+# #index slicing
+# print(chicago_mayor[0:4]) #
+# # the first number 0 is inclusive
+# # the last num is exclusive
+# print(chicago_mayor[4:]) # if you leave it blank it will go to the end
+# print(chicago_mayor[2:-1])
+# print(chicago_mayor[0:5])
 
-print(len(chicago_mayor))
-print(chicago_mayor[0])
-print(chicago_mayor[4])
-print(chicago_mayor[-1])
+# print(len(chicago_mayor))
+# print(chicago_mayor[0])
+# print(chicago_mayor[4])
+# print(chicago_mayor[-1])
 
-# # Indexing: Access characters by position (0-based index)
-print("First character:", phrase[0])  # Output: P
-print("Last character:", phrase[-1])  # Output: !
+# # # Indexing: Access characters by position (0-based index)
+# print("First character:", phrase[0])  # Output: P
+# print("Last character:", phrase[-1])  # Output: !
 
-phrase3 = "Supercagifragilstic"
-print(phrase3.upper())
-print(phrase3[0:5])
-print()
+# phrase3 = "Supercagifragilstic"
+# print(phrase3.upper())
+# print(phrase3[0:5])
+# print()
 
 # # Slicing: Get a range of characters (start inclusive, end exclusive)
 # print("Characters 1 to 4:", phrase[1:4])  # Output: yth
@@ -96,18 +96,18 @@ print()
 # # String Methods
 # # ----------------------------------------
 
-# sentence = "Python is fun to learn"
+sentence = "Python is fun to learn"
 
-# # .split(): Splits the string into a list of words
-# words = sentence.split()
-# print("Split result:", words)
+# .split(): Splits the string into a list of words
+words = sentence.split()
+print("Split result:", words)
 
-# # .format(): Allows inserting values into strings using {}
-# name = "Marvin"
-# age = 35
-# intro = "My name is {} and I am {} years old.".format(name, age)
-# print(intro)
+# .format(): Allows inserting values into strings using {}
+name = "Marvin"
+age = 35
+intro = "My name is {} and I am {} years old.".format(name, age)
+print(intro)
 
-# # You can also use f-strings (Python 3.6+)
-# intro_fstring = f"My name is {name} and I am {age} years old."
-# print(intro_fstring)
+# You can also use f-strings (Python 3.6+)
+intro_fstring = f"My name is {name} and I am {age} years old."
+print(intro_fstring)
