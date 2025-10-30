@@ -20,8 +20,9 @@ print("My name is " + first_name + " and my favorite color is " + favorite_color
 
 #  Step 3: Math Practice
 # Use arithmetic operators with your favorite number
-add_result = 7 + 5
-print("Addition (7 + 5):", add_result)
+num1 = 5
+num2 = 7
+print(num1 + num2)
 
 #  Step 4: User Input Practice
 # Ask the user two questions and combine answers
